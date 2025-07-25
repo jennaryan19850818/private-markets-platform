@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Private Markets Platform</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Pl/5jOMJz8hxsDXiv1X0x74VkwnqDXQa8xGsBjK5v2YrviM+xZyx2Cdhr30TQ9F2WJdcFW9Sxx7fj6Yg++WC+A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- AOS Library for scroll animations -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-FoU1aVyH2oGdm9rLrOiCjHzu3JkT1p6u/HvWnDMygJxEs7UK4f/qxHpSGYBNxurqOYiGsoQX0GQ+nJKPYP/4uQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="container nav-content">
+        <div class="logo">
+          <!-- You could replace this text with an image logo if desired -->
+          <a href="#" aria-label="Home">PrivateMarkets</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#features">Why Us</a></li>
+          <li><a href="#numbers">Numbers</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#mission">Mission</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="#" class="btn secondary">Login</a>
+          <a href="#" class="btn primary">Sign Up</a>
+        </div>
+        <!-- Mobile menu toggle -->
+        <div class="menu-toggle" id="mobile-menu">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content" data-aos="fade-up">
+        <h1>Unlock Opportunity in Private Markets</h1>
+        <p>
+          Discover pre‑IPO investment opportunities and grow with innovative
+          companies before they go public.
+        </p>
+        <div class="hero-actions">
+          <a href="#process" class="btn primary">Get Started</a>
+          <a href="#features" class="btn secondary">Learn More</a>
+        </div>
+        <!-- Search bar -->
+        <div class="search-bar">
+          <input
+            type="text"
+            placeholder="Search companies..."
+            aria-label="Search companies"
+          />
+          <button aria-label="Search"><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+      <!-- Decorative wave at the bottom of hero -->
+      <svg
+        class="hero-wave"
+        viewBox="0 0 1440 320"
+        preserveAspectRatio="none"
+      >
+        <path
+          fill="#f9f9f9"
+          d="M0,224L60,192C120,160,240,96,360,96C480,96,600,160,720,160C840,160,960,96,1080,64C1200,32,1320,32,1380,32L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Why Choose Us?</h2>
+        <p class="section-subtitle" data-aos="fade-up">
+          We provide access to the private markets through a secure and intuitive
+          platform backed by experts.
+        </p>
+        <div class="features-grid">
+          <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-wrapper">
+              <img src="assets/users.svg" alt="Established Network icon" />
+            </div>
+            <h3>Established Network</h3>
+            <p>
+              Connect with a broad network of investors and forward-thinking
+              companies seeking growth capital.
+            </p>
+          </div>
+          <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-wrapper">
+              <img src="assets/trending-up.svg" alt="Data‑Driven Insights icon" />
+            </div>
+            <h3>Data‑Driven Insights</h3>
+            <p>
+              Access in‑depth company data and analytics so you can make
+              informed investment decisions.
+            </p>
+          </div>
+          <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-wrapper">
+              <img src="assets/shield.svg" alt="Secure Platform icon" />
+            </div>
+            <h3>Secure Platform</h3>
+            <p>
+              Our platform leverages industry‑leading security and compliance
+              measures to protect your investments.
+            </p>
+          </div>
+          <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon-wrapper">
+              <img src="assets/thumbs-up.svg" alt="User‑Friendly Experience icon" />
+            </div>
+            <h3>User‑Friendly Experience</h3>
+            <p>
+              Enjoy a streamlined and intuitive experience supported by our team
+              of private market specialists.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Numbers Section -->
+    <section class="numbers" id="numbers">
+      <div class="container">
+        <h2 class="section-title" data-aos="fade-up">By the Numbers</h2>
+        <div class="numbers-grid">
+          <div class="number-item" data-aos="fade-up" data-aos-delay="100">
+            <h3>500K+</h3>
+            <p>Registered Investors</p>
+          </div>
+          <div class="number-item" data-aos="fade-up" data-aos-delay="200">
+            <h3>200+</h3>
+            <p>Companies Funded</p>
+          </div>
+          <div class="number-item" data-aos="fade-up" data-aos-delay="300">
+            <h3>15K+</h3>
+            <p>Transactions Completed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+      <div class="container process-content">
+        <div class="process-text" data-aos="fade-right">
+          <h2 class="section-title">Our Guided Process</h2>
+          <ol class="process-steps">
+            <li>
+              <strong>Sign Up &amp; Verify.</strong> Create your account and confirm
+              eligibility to access private offerings.
+            </li>
+            <li>
+              <strong>Explore Opportunities.</strong> Browse live offerings,
+              review company details and indicate your interest.
+            </li>
+            <li>
+              <strong>Invest Confidently.</strong> Execute documents and fund
+              your investment securely through our platform.
+            </li>
+            <li>
+              <strong>Manage Portfolio.</strong> Monitor performance with
+              personalised updates and insights from our team.
+            </li>
+            <li>
+              <strong>Realise Returns.</strong> Receive proceeds in cash or
+              shares when companies exit or upon liquidity events.
+            </li>
+          </ol>
+        </div>
+        <div class="process-image" data-aos="fade-left">
+          <img src="assets/abstract-network.png" alt="Abstract network" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission & CTA Section -->
+    <section class="mission" id="mission">
+      <div class="container mission-content" data-aos="fade-up">
+        <h2>Empowering the Future of Private Markets</h2>
+        <p>
+          For over a decade we have been committed to democratising access to
+          private markets. Join individuals and institutions investing in the
+          ideas that shape tomorrow.
+        </p>
+        <a href="#" class="btn primary">Join the Movement</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-column">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Policy</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Allocation Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Help</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Getting Started</a></li>
+            <li><a href="#">Status Page</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Connect</h4>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook">
+              <img src="assets/facebook.svg" alt="Facebook icon" />
+            </a>
+            <a href="#" aria-label="Instagram">
+              <img src="assets/instagram.svg" alt="Instagram icon" />
+            </a>
+            <a href="#" aria-label="Twitter">
+              <img src="assets/twitter.svg" alt="Twitter icon" />
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <img src="assets/linkedin.svg" alt="LinkedIn icon" />
+            </a>
+          </div>
+          <address>
+            <p>PrivateMarkets Inc.</p>
+            <p>123 Innovation Drive</p>
+            <p>Silicon Valley, CA 94043</p>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> PrivateMarkets Inc. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- AOS Library -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-5HCPMbFTwSIem+4Zlmc4QoecD4yVMs9Dru7stHqT4c/2KGhyK9FuxHuSOenEbY9D+VXWvPoqsABH2pHgZnI5oQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Main Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
